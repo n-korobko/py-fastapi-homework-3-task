@@ -23,7 +23,6 @@ class UserRegistrationRequestSchema(BaseModel):
         return value
 
 
-
 class UserRegistrationResponseSchema(BaseModel):
     id: int
     email: EmailStr
